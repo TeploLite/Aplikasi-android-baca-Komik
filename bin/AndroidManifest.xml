@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.komiku"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.STORAGE"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.komiku.Loading"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><activity android:name="com.example.komiku.MainActivity"
+          android:label="@string/app_name"></activity>
+        <activity android:name="Anime"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Naruto1"
+				android:label="@string/app_name">
+ 		</activity>
+        <activity android:name="Judul"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Capter"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Bleach"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Csm1"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Csm2"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Csm3"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Blc1"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Blc2"
+				android:label="@string/app_name">
+ 		</activity>
+ 		<activity android:name="Blc3"
+				android:label="@string/app_name">
+ 		</activity>
+    </application>
+
+</manifest>

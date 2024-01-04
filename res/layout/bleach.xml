@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/btn"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="fill_vertical|center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal" >      
+            
+         <Button
+                android:id="@+id/btnblc1"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/blccvr1"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:text="Chapter 317: Six Hearts Will Beat As One"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+         
+         <Button
+                android:id="@+id/btnblc2"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/blccvr2"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:text="Chapter 318: Five Towers/Four Pillars"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+         
+         <Button
+                android:id="@+id/btnblc3"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/blccvr3"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:text="Chapter 319: Ants and Dragons"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />    
+            
+        </LinearLayout>
+    </ScrollView> 
+</LinearLayout>
